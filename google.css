@@ -1,0 +1,117 @@
+body {
+    height: 100%;
+    margin:0px;
+}
+div {
+font-family: arial, sans-serif;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+button {
+color: #FFF;
+background-color: #4285f4;
+border: none;
+padding-top: 8px; padding-bottom: 8px;
+padding-left: 12px; padding-right: 12px;
+border-radius: 3px;
+}
+
+#topbar {
+    font-size: small;
+    margin-top: 15px;
+    position: relative;
+    width:auto;
+    text-align: right;
+    padding-right: 10px;
+
+}
+#topbar a:link {
+    color: #000000;
+    margin-right: 12px;
+}
+
+#topbar button {
+margin-right: 20px;
+width:85px;
+font-weight: 600;
+}
+
+#logoMain {
+    width:550px;
+    position:relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 35px;
+}
+#logoMain img {
+    transform: scale(0.5);
+}
+
+
+
+#searchButton {
+    display: block;
+    
+    position: absolute;
+
+    margin:5px;
+    
+}
+#guessButton {
+    display: block;
+    float: left;
+    margin:5px;
+}
+#searchfield {
+    width:574px; height:34px;
+    position:relative;
+    left:50%;
+    transform: translate(-50%,0);
+    font-size:24px;
+    border-radius: 2px;
+    margin-left:12px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    padding-left:18px;
+    border-style: outset;
+    clear: both;
+}
+
+#bottombar {
+    background-color: #F2F2F2;
+    position: absolute;
+    height: 15px;
+    width: 100%;
+    display: block;
+    padding-top: 5px; padding-bottom: 5px;
+    bottom:5%;
+}
+#bottombar a:link {
+    color: black;
+}
+
+#bottomRight {
+position: relative;
+text-align: right;
+width: auto;
+float: right;
+font-size: small;
+padding-right: 10px;
+
+}
+
+#bottomLeft {
+    position: relative;
+    text-align: left;
+    width: auto;
+    float: left;
+    font-size: small;
+    padding-left: 10px;
+
+    
+}
+
+
