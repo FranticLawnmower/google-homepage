@@ -51,20 +51,32 @@ font-weight: 600;
     transform: scale(0.5);
 }
 
+#logoSub {
+    position: relative;
+    float: right;
+    display: inline;
+    bottom:70px;
+    right:100px;
+    color:#4285f4;
+}
 
+#buttons {
+    display: block;
+    margin-top: 15px;
+
+    
+}
 
 #searchButton {
-    display: block;
-    
-    position: absolute;
-
-    margin:5px;
+    position:relative;
+    left: 45%;
+    transform: translate(0, 0);
     
 }
 #guessButton {
-    display: block;
-    float: left;
-    margin:5px;
+    position:relative;
+    left: 45.5%;
+    transform: translate(0, 0);
 }
 #searchfield {
     width:574px; height:34px;
@@ -80,6 +92,45 @@ font-weight: 600;
     clear: both;
 }
 
+#nofifications {
+    display: block;
+    position: absolute;
+    bottom:25px;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 55px;
+    
+}
+#privacyIcon {
+    
+    display: inline;
+    position: absolute;
+    transform: translate(0px, -15px);
+    margin-left: 15px;
+/*    padding-right: 25px;*/
+}
+
+#privacyText {
+    float: left;
+    display: inline;
+    position: relative;
+    margin-left: 85px;
+    
+}
+#privacyLater {
+    float: right;
+    position: relative;
+    margin-right: 15px;
+    
+    
+}
+
+#privacyNu {
+    float: right;
+    position: relative;
+    margin-right: 25px;
+}
+
 #bottombar {
     background-color: #F2F2F2;
     position: absolute;
@@ -87,7 +138,7 @@ font-weight: 600;
     width: 100%;
     display: block;
     padding-top: 5px; padding-bottom: 5px;
-    bottom:5%;
+    bottom:0%;
 }
 #bottombar a:link {
     color: black;
@@ -104,12 +155,12 @@ padding-right: 10px;
 }
 
 #bottomLeft {
-    position: relative;
-    text-align: left;
-    width: auto;
-    float: left;
-    font-size: small;
-    padding-left: 10px;
+position: relative;
+text-align: left;
+width: auto;
+float: left;
+font-size: small;
+padding-left: 10px;
 
     
 }
